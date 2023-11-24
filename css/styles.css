@@ -1,0 +1,349 @@
+/* ============== COMMON STYLES ============== */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background:#FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+button {
+    cursor: pointer;
+}
+ul, ol {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+/* ========== COMMON STYLES =========== */
+/* ============== HEADER ============== */
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.page-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 76px;
+
+}
+
+.logo-studio {
+    color: #2e2f42;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-link {
+    display: flex;
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    
+
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+}
+
+.contacts {
+    font-style: normal;
+    display: flex;
+    align-items: center;
+
+    
+ }
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
+    }
+
+.contacts-link {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+ }
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404BBF;
+}
+
+/* ============== HERO 1 SECTION ============== */
+.main-section {
+    background-color: #2e2f42;
+    padding: 188px 0;
+    
+}
+
+.main-title {
+    color: #FFF ;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    max-width: 496px;
+    margin: 0 auto;
+    
+}
+
+.button-order-services {
+    display: block;
+    background: #4D5AE5;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    margin: 48px auto 0;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+}
+
+.button-order-services:hover,
+.button-order-services:focus {
+    background-color: #404BBF;
+}
+
+/* ============== HERO 1 SECTION ============== */
+/* ============== BENEFITS 2 SECTION ============== */
+
+.benefits-list {
+    display: flex;
+    gap: 24px;
+
+}
+
+.benefits-list-item {
+    width: calc((100% - 72px) / 4) ;
+}
+
+.benefits-list-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+.benefits-list-text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* ============== BENEFITS 2 SECTION ============== */
+/* ============== OUR TEAM 3 SECTION ============== */
+
+.our-team-section {
+    background:#F4F4FD;
+}
+
+.our-team-title {
+    margin-bottom: 72px;
+}
+
+
+
+.our-team-list-item {
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px 
+    rgba(46, 47, 66, 0.08), 
+    0px 1px 1px 0px 
+    rgba(46, 47, 66, 0.16), 
+    0px 1px 6px 0px 
+    rgba(46, 47, 66, 0.08);
+   }
+
+.our-team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.container-team-title-text {
+    padding: 32px 0;
+}
+
+.our-team-list-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.our-team-list-text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+}
+
+/* ============== OUR TEAM 3 SECTION ============== */
+/* ============== OUR PORTFOLIO 4 SECTION ============== */
+
+
+.our-portfolio-title {
+    margin-bottom: 72px;
+}
+
+.our-portfolio-list {
+display: flex;
+flex-wrap: wrap;
+column-gap: 24px;
+row-gap: 48px;
+}
+
+.our-portfolio-list-item {
+width: calc((100% - 48px) / 3);
+}
+
+.container-portfolio-title-text {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+
+}
+
+.our-portfolio-list-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+.our-portfolio-list-text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* ============== OUR PORTFOLIO 4 SECTION ============== */
+/* ============== FOOTER ============== */
+
+.footer {
+    background: #2E2F42;
+    padding: 100px 0;
+}
+
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-logo-web {
+    color:#f4f4fd;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    width: 264px;
+    
+}
