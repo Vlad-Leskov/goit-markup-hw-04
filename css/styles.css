@@ -225,6 +225,17 @@ img {
 /* ============== HERO 1 SECTION ============== */
 /* ============== BENEFITS 2 SECTION ============== */
 
+.container-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8E8F99;
+
+}
+
 .benefits-list {
     display: flex;
     gap: 24px;
