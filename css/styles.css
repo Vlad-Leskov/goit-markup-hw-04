@@ -233,6 +233,7 @@ img {
     background-color: #f4f4fd;
     border-radius: 4px;
     border: 1px solid #8E8F99;
+    margin-bottom: 8px;
 
 }
 
@@ -273,8 +274,6 @@ img {
     margin-bottom: 72px;
 }
 
-
-
 .our-team-list-item {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
@@ -312,8 +311,41 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    padding-bottom: 8px;
 
 }
+
+.social-icon-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+.social-icon-item {
+    width: 40px;
+    height: 40px;
+}
+
+.social-icon-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms
+}
+
+.social-icon-link:hover,
+.social-icon-link:focus {
+    background-color: #404bbf;
+ }
+
+ .social-icon {
+    fill: #f4f4fd;
+ }
 
 /* ============== OUR TEAM 3 SECTION ============== */
 /* ============== OUR PORTFOLIO 4 SECTION ============== */
